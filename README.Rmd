@@ -1,0 +1,61 @@
+---
+output: github_document
+---
+
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# poseidon-maldi <img src="man/poseidon_logo.png" align="right" width="280" />
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This repository contains the code to replicate the results in the paper
+
+> "Multiomics Tissue Segmentation via Spatially-Informed Nested Biclustering Methods"  
+>  by F. Denti, C. Balocchi, V. Denti, and G. Capitoli.
+
+The manuscript is currently under review, and a draft is [available on arXiv](https://arxiv.org/abs/2509.02482). 
+In this repository, you can also find the `R` packages `Poser` and `Poseidon`, which implements the variational inference algorithm and the auxiliary functions used in the analyses. For instruction on how to install the packages, refer to [this section](#sec:install).
+
+### Structure of the repository
+
+----
+
+#### Simulation Study Folders
+
+Folders with names starting with `Simulation_` contain code to replicate the simulation studies presented in the paper. The `R` files in the each folder have to be ran in alphabetical order. An additional `README` file, explaining how to run the competitors, is contained in the `Simulation_VaryingSpatial_competitors`.
+
+In particular, 
+
+- `Simulation_Biclustering_recovery/` contains the code to replicate the results of Supplementary Section S.
+- `Simulation_Study_Times/` contains the code to replicate the results of Supplementary Section S.
+- `Simulation_Study_CAM_drawback/` contains the code to replicate the results of Supplementary Section S.
+- `Simulation_Study_Poseidon_vs_Pose/` contains the code to replicate the results of Supplementary Section S.
+- `Simulation_VaryingSpatial_competitors/` contains the code to replicate the results of Supplementary Section S.
+
+#### CRCC data analysis folder
+
+
+
+### Installing packages {#sec:install}
+
+You can install the `Poser` and `Poseidon` packages by running
+
+```{r, eval = FALSE}
+install.packages("R_packages/Poser_0.0.2.tar.gz", repos = NULL, type="source") 
+install.packages("R_packages/Poser_0.1.0.tar.gz", repos = NULL, type="source") 
+```
+
+which install them from their binary files.
+
+### Problems
+
+In case of a problem with the code, please open an issue in this repository, at [this link](https://github.com/Fradenti/poseidon-maldi/issues).

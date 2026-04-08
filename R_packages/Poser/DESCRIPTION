@@ -1,0 +1,17 @@
+Package: Poser
+Type: Package
+Title: Poser - Single dataset separate exchangeability with Potts
+Version: 0.0.2
+Date: 2024-12-06
+Author: Francesco Denti
+Maintainer: Francesco Denti
+      <francescodenti.personal@gmail.com>
+Description: Fitting Potts models over Separate exchangeability with or without BNP-HMRF prior.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo
+Imports: 
+    Rcpp
+RoxygenNote: 7.3.3

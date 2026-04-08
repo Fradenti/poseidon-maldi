@@ -1,0 +1,63 @@
+# Readme - Varying Spatial Strength
+
+The instruction below refer to files in the folder `Simulation_VaryingSpatial_competitors`.
+These are extra details to run the competitors. To run the other analyses, written purely in `R`, source the script in alphabetical order.
+
+### Running the UTAG Simulation with Python
+
+Before running the `UTAG` simulation, ensure that the data has been generated in `R` and 
+exported using `C_export_data.R`, saving it in `data/simulated_dataC`.
+
+#### Setup
+
+- Create a Python virtual environment by running the following command in the terminal:
+
+```{bash, eval = FALSE}
+python3 -m venv .venv
+```
+
+Activate the virtual environment via
+
+```{bash, eval = FALSE}
+source .venv/bin/activate
+```
+
+#### Install required packages
+
+Install the core dependencies:
+
+```{bash, eval = FALSE}
+python3 -m pip install numpy pandas matplotlib anndata scanpy squidpy
+```
+
+Install UTAG directly from the GitHub repository:
+
+```{bash, eval = FALSE}
+pip install git+https://github.com/ElementoLab/utag.git@main
+```
+
+Note: For detailed instructions on installing `UTAG`, 
+refer to the official documentation: [https://github.com/ElementoLab/utag](https://github.com/ElementoLab/utag). 
+
+##### Running the Simulation
+
+The script is designed to be executed from a bash script, which loops over all 
+simulated datasets (`i_sim` from 1 to 50) and passes the index to `D1_run_UTAG.py`.
+
+Make the bash script executable:
+
+```{bash, eval = FALSE}
+chmod +x D2_run_python_simulations.sh
+```
+
+Execute the script:
+
+```{bash, eval = FALSE}
+./D2_run_python_simulations.sh
+```
+
+### Running the BayesSpace Simulation (with R)
+
+The `BayesSpace` simulation files are structured similarly to the `UTAG` simulation to facilitate execution from a bash script (`E2_run_BayesSpace_simulations.sh`).
+
+It is also possible to run the simulation directly from RStudio, for example, using multiple background jobs. Minor adjustments may be required if running in RStudio instead of the bash script.
