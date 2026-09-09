@@ -66,7 +66,7 @@ To reproduce the real-data analysis:
 1.  Visit the *Bicocca Open Archive Research Data* repository at [this
     link](linkhttps://doi.org/10.17632/gxz9kjj2r9.1)
 2.  Download all files
-3.  Place them in the `Data/` directory
+3.  Place them in the `CRCC_Analysis/Data/` directory
 
 If you use these data, please cite:
 
