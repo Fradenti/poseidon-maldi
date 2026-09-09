@@ -12,7 +12,7 @@ presented in the paper:
 
 > **“Multiomics Tissue Segmentation via Spatially-Informed Nested
 > Biclustering Methods”**  
-> F. Denti, C. Balocchi, V. Denti, and G. Capitoli (2026)
+> F. Denti, C. Balocchi, V. Denti, and G. Capitoli
 
 The manuscript has been just accepted for publication in **Biometrics**.
 An outdated preprint is available on
@@ -83,16 +83,11 @@ and the associated paper:
 
 ------------------------------------------------------------------------
 
-<style>
-  .img-centrata {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-</style>
+<div align="center">
 
-<img src="CRCC_Analysis/kidney_flipped.png" alt="CRCC spatial map" class="img-centrata">
+<img src="CRCC_Analysis/kidney_flipped.png" alt="CRCC spatial map" width="50%">
+
+</div>
 
 ------------------------------------------------------------------------
 
