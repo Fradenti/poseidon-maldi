@@ -11,10 +11,11 @@ This repository contains the code required to reproduce the results
 presented in the paper:
 
 > **“Multiomics Tissue Segmentation via Spatially-Informed Nested
-> Biclustering Methods”** F. Denti, C. Balocchi, V. Denti, and G.
-> Capitoli
+> Biclustering Methods”**  
+> F. Denti, C. Balocchi, V. Denti, and G. Capitoli (2026)
 
-The manuscript is currently under review. A preprint is available on
+The manuscript has been just accepted for publication in **Biometrics**.
+An outdated preprint is available on
 [arXiv](https://arxiv.org/abs/2509.02482).
 
 The repository also includes the `R` packages **Poser** and
@@ -77,7 +78,8 @@ and the associated paper:
 
 > **“Multiomics Tissue Segmentation via Spatially-Informed Nested
 > Biclustering Methods”**  
-> F. Denti, C. Balocchi, V. Denti, and G. Capitoli
+> F. Denti, C. Balocchi, V. Denti, and G. Capitoli  
+> Biometrics, 2026
 
 ------------------------------------------------------------------------
 
