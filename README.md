@@ -15,8 +15,8 @@ presented in the paper:
 > F. Denti, C. Balocchi, V. Denti, and G. Capitoli
 
 The manuscript has been just accepted for publication in **Biometrics**.
-An outdated preprint is available on
-[arXiv](https://arxiv.org/abs/2509.02482).
+An preprint is available
+[here](https://fradenti.github.io/pdf/Poseidon.pdf).
 
 The repository also includes the `R` packages **Poser** and
 **Poseidon**, which implement the variational inference algorithm and
