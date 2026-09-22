@@ -15,7 +15,7 @@ presented in the paper:
 > F. Denti, C. Balocchi, V. Denti, and G. Capitoli
 
 The manuscript has been just accepted for publication in **Biometrics**.
-An preprint is available
+A preprint is available
 [here](https://fradenti.github.io/pdf/Poseidon.pdf).
 
 The repository also includes the `R` packages **Poser** and
